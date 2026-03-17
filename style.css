@@ -68,6 +68,7 @@
     margin: 8px;
     background-color: #999;
     color: #fff;
+    text-shadow: #000 2px 2px 4px;
 }
 
 .images .image-box.full {
@@ -92,7 +93,8 @@
     position: absolute;
     bottom: 12px;
     left: 12px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 800;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -107,8 +109,9 @@
 
 .image-box p {
     position: absolute;
-    top: 32px;
+    top: 48px;
     left: 12px;
+    font-size: 16px;
     width: 80%;
     opacity: 0;
 }
