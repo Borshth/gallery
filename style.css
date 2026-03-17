@@ -67,6 +67,7 @@
 .images .image-box {
     margin: 8px;
     background-color: #999;
+    color: #fff;
 }
 
 .images .image-box.full {
@@ -91,7 +92,6 @@
     position: absolute;
     bottom: 12px;
     left: 12px;
-    color: #fff;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
