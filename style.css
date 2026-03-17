@@ -71,6 +71,7 @@
 
 .images .image-box.full {
     width: 90%;
+    height: 400px;
     background-color: brown;
 }
 
