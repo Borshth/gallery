@@ -90,6 +90,14 @@
     </div>
     </div>
     <script src="script.js"></script>
+    <script>
+        const cards = document.querySelectorAll('.image-box');
+        cards.forEach(card => {
+            card.addEventListener('click', function () {
+                this.classList.toggle('full');
+            });
+        });
+    </script>
 </body>
 
 </html>
